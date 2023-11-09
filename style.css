@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"PlayFair Display";
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#back{
+    width: 100%;
+    height: 100vh;
+    background-color: #f3f3f3;
+    display: flex;
+}
+#left{
+    width: 70%;
+    height: 100%;
+    padding: 30px 40px;
+    position: relative;
+
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    opacity: .6;
+    font-size: 17px;
+}
+
+nav a:nth-child(2){
+    opacity: 1;
+    font-size: 15px;
+    border-bottom:2px solid black;
+    padding-bottom: 4px;
+    margin-top: 6px;
+}
+
+#circle{
+    width: 500px;
+    height: 500px;
+    background-color:#dadada;
+    border-radius: 50%;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1491147334573-44cbb4602074?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    top: 50%;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#smcircle{
+    width: 340px;
+    height: 340px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#smcircle img{
+    width: 500px;
+    position: absolute;
+    top: 13%;
+    left: -60%;
+    
+    
+}
+#vsmcircle{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background-image:url(https://images.unsplash.com/photo-1530728327726-b504480e42ec?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    top: 50%;
+    right:-2%;
+    border:5px solid white;
+    transform:translate(0, -50%);
+    position:absolute;
+    
+}
+#vsmcircle i{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    align-items:center;
+    justify-content:center;
+    display: flex;
+    border-radius: 50%;
+    
+    
+}
+
+
+#card{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+
+
+#right{
+    width: 30%;
+    height: 100%;
+    background-color: #222;
+    padding: 35px 40px;
+    color: white;
+
+}
+
+#right input{
+    width: 100%;
+    padding: 12px 32px;
+    border-radius: 100px;
+    border: none;
+    background-color: #333;
+    font-family:"product Sans";
+    color: white;
+
+}
+
+#right h4{
+    font-size: 22px;
+    font-weight: 100;
+    margin-top: 20px;
+    opacity: .7;
+}
+
+#prtimg{
+    width: 100%;
+    height: 200px;
+    background-color: #777;
+    margin-top: 29px;
+    background-image:url(https://images.unsplash.com/photo-1586768019524-c6e902168263?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fHBhcnJvdHxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size:cover;
+    border-radius: 3px;
+}
+
+#right h3{
+    font-size:26px ;
+    margin-top: 32px;
+
+}
+
+.elem{
+    display: flex;
+    width: 100%;
+    
+}
+
+.elem h3{
+    font-family:"Product-Sans";
+    font-weight: 100;
+}
+
+.elem h3{
+    margin-right: 90px;
+    font-weight: 100;
+    font-size: 20px !important;
+}
+
+.elem .dets h3{
+    font-size: 20px !important;
+    font-weight: 100;
+}
+
+.elem .dets p{
+    font-family:"Product Sans";
+    font-weight: 100;
+    opacity: .5;
+}
